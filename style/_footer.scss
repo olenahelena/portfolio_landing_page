@@ -1,0 +1,39 @@
+.footer {
+    padding-top: 3.125rem;
+    padding-bottom: 3.125rem;
+    border-top: 0.0625rem solid rgba(238, 238, 238, 0.10);
+}
+
+.footer__menu:not(:last-child) {
+    margin-bottom: 1.75rem;
+}
+
+.menu-footer__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3rem;
+    row-gap: 0.9375rem;
+}
+
+.menu-footer__item:hover {
+    text-decoration: underline;
+}
+
+.menu-footer__link {
+    line-height: 1.5rem;
+    padding-left: 2.125rem;
+}
+
+.menu-footer__link_home {
+    background: url(/assets/home.svg) left no-repeat;
+}
+
+.menu-footer__link_about {
+    background: url(/assets/user.svg) left no-repeat;
+}
+
+.menu-footer__link_contact {
+    background: url(/assets/phone.svg) left no-repeat;
+}

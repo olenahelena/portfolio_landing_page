@@ -1,0 +1,78 @@
+.title {
+    color: $gray;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.title span {
+    color: $turquoise;
+}
+
+@media (max-width: 767.98px) {
+    .title {
+        font-size: 2.8125rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .title {
+        font-size: 3.25rem;
+    }
+}
+
+/* ------------------------ */
+
+.button {
+    text-align: center;
+    color: $gray;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0.625rem 2rem;
+    background-color: $turquoise;
+    border-radius: 1.5rem;
+    transition: background-color 0.3s ease 0s;
+}
+
+.button:hover,
+.button:active {
+    background-color: $dark-button;
+}
+
+.button_dark {
+    background-color: $dark-button;
+    transition: background-color 0.3s ease 0s;
+}
+
+.button_dark:hover {
+    background-color: $turquoise;
+}
+
+/* ------------------------ */
+.social {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5rem;
+}
+
+.social__link {
+    background: $dark-gray;
+    flex: 0 0 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease 0s;
+}
+
+.social__link:hover {
+    background: rgb(91, 98, 110);
+}
+
+.social__link_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
